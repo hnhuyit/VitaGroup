@@ -1,0 +1,37 @@
+body {
+	padding: 0;
+	margin: 0 auto;
+	color: #2d2d2d;
+	font-size: 15px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 300;
+	line-height: 1.6; 
+}
+ul li {
+	list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'NarzissDrops';
+}
+a:hover, a:focus {
+    color: #d49f0b;
+    text-decoration: none;
+    outline: none;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{outline:0;border:0;}
+
+
+table{border-collapse:collapse;border-spacing:0;}
+table tr td{padding:3px 0;}
+dl, dt, dd, ol, ul, li, tr, th, td{list-style:none; padding:0;}
+
+a{
+	color:#488a3f;
+	text-decoration:none;
+	cursor:pointer;
+	-webkit-transition:all .25s ease-in-out;
+	-moz-transition:all .25s ease-in-out;
+	-ms-transition:all .25s ease-in-out;
+	-o-transition:all .25s ease-in-out;
+	transition:all .25s ease-in-out;
+}

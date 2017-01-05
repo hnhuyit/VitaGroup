@@ -1,0 +1,108 @@
+button.navbar-toggle {
+	background: #82bc41;
+    border-radius: 8px;
+    padding: 11px 7px;
+}
+button.navbar-toggle span.icon-bar {
+	background: #fff !important;    
+	display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+#header .navbar-default .navbar-toggle:hover {
+    background-color: #82bc41;
+}
+
+/* Header */
+@media (max-width: 767px){
+	.page-body {
+	    padding-top: 69px;
+	}
+	#header a.logo {
+	    background-size: 95px;
+	    width: 101px;
+	    height: 60px;
+	}
+	#header .right-header {
+	    position: relative;
+	    padding: 0;
+	}
+	#header .hotline-sticky {
+		position: absolute;
+	    top: -50px;
+	    right: 50px;
+	}
+	#header .navbar-default {
+    	background: transparent;
+    	box-shadow: none;
+	} 	
+	#header .navbar-nav {
+		padding: 0 15px;
+	}
+	#header .navbar-collapse {
+		box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 10px 0px;
+		margin: 0;
+   		background: #fff;
+	}
+    #header ul.navbar-nav li.first {
+	    display: none;
+	}	
+	#header ul.navbar-nav li.active {
+		border-bottom: 3px solid #82bc41 !important;
+	}
+	#header .navbar-collapse ul.navbar-nav li {
+	   	border-bottom: 1px solid #dcdcdc;
+	}
+	#header ul.navbar-nav li.active a {
+		border-bottom-color: transparent !important;
+	}
+	#header .navbar-header {
+		background: #fff;
+	    -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+	    -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+	    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+	}
+	#header .navbar-nav {
+		margin-bottom: 15px;
+	}
+
+    
+}
+@media (max-width: 350px) {
+	#header .hotline-sticky strong {
+	    font-size: 16px;
+	}
+	#header .hotline-sticky {
+	    top: -51px;
+	    right: 45px;
+	}
+}
+
+
+/* Footer */
+@media (max-width: 991px) {
+	
+	.footer-coppyright {
+	    text-align: center;
+	}
+	.ls-social {
+		width: 100%;
+		text-align: center;
+	}
+	.ls-social li {
+		float: none;
+		display: inline;
+	}
+	.footer-coppyright .last .info {
+		text-align: center;
+	}
+}
+@media (max-width: 520px) {
+	.footer-coppyright .item {
+		width: 100%;
+	}
+	.footer-coppyright .logo {
+		display: inline-block;
+	}
+}
